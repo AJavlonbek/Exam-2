@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #282829;
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    gap: 30px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+.title{
+    width: 743px;
+    height: 186px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+.title h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 88px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.box img{
+    width: 393px;
+    height: 230px;
+    border-radius: 20px;
+}
+.box h2{
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+    width: 393px; /* ИСПРАВЛЕНО: Сделали ширину текста такой же, как у твоей картинки (вместо 30%) */
+}
+.box p{
+    font-family: Inter;
+    font-weight: 400;
+    text-align: center;
+    width: 393px; /* ИСПРАВЛЕНО: Сделали ширину текста такой же, как у твоей картинки (вместо 30%) */
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #282829;
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    gap: 30px;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600; 
+}
